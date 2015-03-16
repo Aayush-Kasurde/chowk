@@ -1,20 +1,20 @@
-chowk
+Chowk
 =====
 
-chowk acts as a interface between [RapidPro](http://rapidpro.io) and any number of [Kannel](http://kannel.org) servers that you have,
+Chowk acts as a interface between [RapidPro](http://rapidpro.io) and any number of [Kannel](http://kannel.org) servers that you have,
 by passing messages to and fro in a format that both will understand.
 
-Whom and how does chowk help ?
+Whom and how does Chowk help ?
 ----------------
 If you have multiple Kannel servers and need to pass on each message originating from RapidPro
 to the "right" kannel server based on the number series of the recipient (ie. the network operator),
 chowk helps you.
 
-Please note that chowk only helps in case of 1-to-N connections of Rapidpro and Kannel servers and *not* vice versa.
+Please note that Chowk only helps in case of 1-to-N connections of Rapidpro and Kannel servers and *not* vice versa.
 
 Installation & usage
 --------------------
-see INSTALL
+see INSTALL section
 
 Currently it:
 -------------
@@ -28,13 +28,15 @@ Currently it:
 
 In future it will:
 ------------------
-* Have better error messsages and email based reporting and file based logging of exceptions, errors and warnings.
+* Have better error messsages 
+* E-mail based reporting 
+* File based logging of exceptions, errors and warnings.
 * Support SSL in connections with RapidPro and Kannel.
-* Use Greenlet/eventlets to make things beter, faster and easier (??)
-* Authenticate requests from RapidPro and Kannel to ensure they are actually coming from where they say they are coming.
+* Use Greenlet / eventlets to make things better, faster and easier (??)
+* Authenticate requests from RapidPro and Kannel to ensure they are actually coming from where requests say they are coming.
 * Priority based queue processing
 
 What's in the name?
 --------------------
 
-chowk is Hindi/Marathi/Indian vernacular slang for a traffic square where different routes meet and traffic is controlled and directed.
+Chowk is Hindi / Marathi for a traffic square where different routes meet and traffic is controlled, directed.
